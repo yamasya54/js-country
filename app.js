@@ -10,6 +10,7 @@ countrySelect.addEventListener("change", (e) => {
     const selectedCountry = contries.filter( (country) => country.name.common ===  e.target.value  );
     displayCountryCard(selectedCountry[0])
 }
+
 });
 /* functions */
 const getCountries = () => {
